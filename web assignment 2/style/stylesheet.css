@@ -1,0 +1,115 @@
+body{
+    background-color: #21242E;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container{
+    width: 90%;
+}
+.outer-box{
+    width: 60%;
+    height: 500px;
+    border: 1px solid beige;
+    margin: 0 auto;
+}
+
+.left-box{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: rgb(245, 245, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-innerbox{
+    width: 80%;
+}
+
+.right-box{
+    height: 500px;
+    background-color: #EDF2F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: 416px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box{
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    border:none;
+    background-color: #ecdfdf;
+}
+
+#facebook-login{
+    width: 75%;
+    margin: 10px;
+    padding: 5px;
+    background-color: #3C589A;
+    color: white;
+    border: 1px solid #3C589A;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#forgot{
+    color: gray;
+}
+
+#right-content{
+    width: 80%;
+    text-align: center;
+}
+
+#see-more{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+label{
+    margin: 10px;
+}
+
+#login-button{
+    width: 75%;
+    margin: 10px;
+    padding: 5px;
+    background-color: #FA4559;
+    color: white;
+    border: 1px solid #E6475D;
+    border-radius: 4px;
+}
+
+.signup{
+    color: gray;
+}
