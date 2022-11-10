@@ -1,0 +1,126 @@
+body{
+    background-color: #525461;
+}
+
+.container{
+    width: 90%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.outer-box{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid rgb(71, 69, 69);
+    border-radius: 15px;
+    background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 15px 15px 15px rgba(7, 7, 7, 0.89);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+li a{
+    color: white;
+    display: block;
+    padding: 17px 25px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+li a:hover{
+    background-color: rgba(19, 18, 20, 0.26);
+}
+
+.left-part{
+    width: 60%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-inner-box{
+    width: 70%;
+}
+
+.textbox{
+    width: 110px;
+    padding: 5px;
+    border: 1px solid #2F313E;
+    border-radius: 8px;
+    background-color: #6b6c7428;
+}
+
+.input-box{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #2F313E;
+    border-radius: 8px;
+    background-color: #6b6c7428;
+}
+
+.left{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: beige;
+}
+
+h5{
+    color: #94959b;
+}
+
+.login{
+    color: rgb(85, 111, 180);
+    margin: 30px;
+}
+
+h5 :hover{
+    background-color: rgba(19, 18, 20, 0.616);
+    cursor: pointer;
+    padding:10px
+}
+
+#first-name{
+    width: 50%;
+    float: left;
+}
+
+.button{
+    width: 120px;
+    margin: 12px;
+    padding: 13px;
+    border: 1px solid #32323657;
+    border-radius: 19px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #32323657;
+    box-shadow: 10px 7px 10px rgba(7, 7, 7, 0.89);
+}
+
+.button:hover{
+    background-color: rgb(24, 55, 138);
+    cursor: pointer;
+}
+
+.anywhere-app{
+    margin-left: 55px;
+}
+
+
+.label{
+    font-size: 11px;
+}
+
